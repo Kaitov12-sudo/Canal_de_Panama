@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canal de Panamá - Funcionamiento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 450px;
+            border: none;
+            border-radius: 10px;
+        }
+        .qr-container {
+            margin-top: 20px;
+        }
+        img {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cómo funciona el Canal de Panamá</h1>
+        <p>Este video muestra cómo funcionan las esclusas del Canal de Panamá.</p>
+        
+        <!-- Video de YouTube -->
+        <iframe src="https://www.youtube.com/embed/rzac7mQUOzc?autoplay=1&mute=1&loop=1&playlist=rzac7mQUOzc" allowfullscreen></iframe>
+        
+        <!-- Código QR -->
+        <div class="qr-container">
+            <p>Escanea este código QR para ver el video en YouTube:</p>
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.youtube.com/watch?v=rzac7mQUOzc" alt="Código QR para el video">
+        </div>
+    </div>
+</body>
+</html>
